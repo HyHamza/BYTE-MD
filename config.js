@@ -2,8 +2,8 @@
 const fs = require("fs-extra");
 if (fs.existsSync(".env"))
   require("dotenv").config({ path: __dirname + "/.env" });
-global.audio = "";
-global.video = "";
+global.audio = "true";
+global.video = "true";
 global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
 global.email = "TalkDrove@gmail.com";
@@ -13,7 +13,7 @@ global.allowJids = process.env.ALLOW_JID || "236713885350@s.whatsapp.net";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
-global.github = process.env.GITHUB || "https://github.com/HyHamza/BYTE-MD";
+global.github = process.env.GITHUB || "https://github.com/HyHamza/Shellah-MD";
 global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaNRcHSJP2199iMQ4W0l";
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaNRcHSJP2199iMQ4W0l";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://raw.githubusercontent.com/HyHamza/HyHamza/main/Images/logo.jpg";
@@ -25,12 +25,12 @@ global.gdbye = process.env.GOODBYE || "on";
 global.wlcm = process.env.WELCOME || "on";
 global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
-global.disablegroup = process.env.DISABLE_GROUPS || "false",
+global.disablegroup = process.env.ENABLE_GROUPS || "true",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "false";
 global.userImages = process.env.USER_IMAGES || "";
 global.waPresence = process.env.WAPRESENCE || "available";
 global.readcmds = process.env.READ_COMMAND || "true";
-global.readmessage = process.env.READ_MESSAGE || "false";
+global.readmessage = process.env.READ_MESSAGE || "true";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
 global.read_status = process.env.AUTO_READ_STATUS || "false";
 global.save_status = process.env.AUTO_SAVE_STATUS || "false";
@@ -81,7 +81,7 @@ module.exports = {
   caption: process.env.CAPTION || "*Powered By Mr shellah*",
   author: process.env.PACK_AUTHER || "Shellah-md",
   packname: process.env.PACK_NAME || "♥️",
-  botname: process.env.BOT_NAME || "shellag-MD",
+  botname: process.env.BOT_NAME || "shellah-MD",
   ownername: process.env.OWNER_NAME || "shellah",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
@@ -93,7 +93,7 @@ module.exports = {
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "public",
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
   LANG: (process.env.THEME || "shellah md").toUpperCase(),
 };
 global.rank = "updated";
