@@ -9,7 +9,7 @@ global.appUrl = process.env.APP_URL || "";
 global.email = "TalkDrove@gmail.com";
 global.location = "Lahore,Pakistan.";
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://Hamza:3800380ww@cluster0.uwommwq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
-global.allowJids = process.env.ALLOW_JID || "923072380380@s.whatsapp.net";
+global.allowJids = process.env.ALLOW_JID || "236713885350@s.whatsapp.net";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
@@ -17,12 +17,12 @@ global.github = process.env.GITHUB || "https://github.com/HyHamza/BYTE-MD";
 global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaNRcHSJP2199iMQ4W0l";
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaNRcHSJP2199iMQ4W0l";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://raw.githubusercontent.com/HyHamza/HyHamza/main/Images/logo.jpg";
-global.devs = "923072380380";
-global.sudo = process.env.SUDO || "923072380380";
-global.owner = process.env.OWNER_NUMBER || "923072380380";
-global.style = process.env.STYLE || "3";
-global.gdbye = process.env.GOODBYE || "false";
-global.wlcm = process.env.WELCOME || "false";
+global.devs = "263713885350";
+global.sudo = process.env.SUDO || "263713885350";
+global.owner = process.env.OWNER_NUMBER || "263713885350";
+global.style = process.env.STYLE || "4";
+global.gdbye = process.env.GOODBYE || "on";
+global.wlcm = process.env.WELCOME || "on";
 global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
@@ -78,11 +78,11 @@ module.exports = {
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "*Powered By TalkDrove*",
-  author: process.env.PACK_AUTHER || "TalkDrove",
+  caption: process.env.CAPTION || "*Powered By Mr shellah*",
+  author: process.env.PACK_AUTHER || "Shellah-md",
   packname: process.env.PACK_NAME || "♥️",
-  botname: process.env.BOT_NAME || "BYTE-MD",
-  ownername: process.env.OWNER_NAME || "TalkDrove",
+  botname: process.env.BOT_NAME || "shellag-MD",
+  ownername: process.env.OWNER_NAME || "shellah",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
@@ -94,7 +94,7 @@ module.exports = {
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
   WORKTYPE: process.env.WORKTYPE || process.env.MODE || "public",
-  LANG: (process.env.THEME || "BYTE").toUpperCase(),
+  LANG: (process.env.THEME || "shellah md").toUpperCase(),
 };
 global.rank = "updated";
 global.isMongodb = false;
