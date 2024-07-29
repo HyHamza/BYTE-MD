@@ -1,15 +1,15 @@
 {
   "name": "BYTE-MD",
-  "description": "World Simplest Bot created by TalkDrove ",
+  "description": "World Simplest Bot created by Mesh KE ",
   "logo": "https://raw.githubusercontent.com/HyHamza/HyHamza/main/Images/logo.jpg",
-  "keywords": ["BYTE-MD", "Byte", "Hamza","TalkDrove","HyHamza","HyByte"],
+  "keywords": ["MESH-MD", "Byte", "Hamza","Mesh KE","HyHamza","HyByte"],
   "success_url": "/",
   "stack": "container",
 
   "env": {
     "OWNER_NAME": {
       "description": "Name for Bot Owner",
-      "value": "TalkDrove",
+      "value": "Mesh KE",
       "required": true
     },
     "SESSION_ID": {
@@ -30,10 +30,15 @@
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
       "required": false,
-      "value": "Asia/Karachi"
+      "value": "Africa/Nairobi"
     },
     "READ_COMMAND": {
       "description": " Read bot cmds",
+      "required": false,
+      "value": "true"
+      },
+    "AUTOREACTION": {
+      "description": " Reacts to messages",
       "required": false,
       "value": "true"
     },
@@ -64,7 +69,7 @@
     },
     "AUTO_READ_STATUS": {
       "description": "Fill the value true if you want bot view your Statuses.",
-      "required": false,
+      "required": true,
       "value": "true"
     },
     "MSGS_IN_LOG": {
@@ -88,7 +93,7 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": "923072380380"
+      "value": "254707541188"
     },
 
     "MODE": {
@@ -102,7 +107,7 @@
     },
     "PACK_AUTHER": {
       "description": "Put Sticker Author_Name.",
-      "value": "TalkDrove",
+      "value": "Mesh KE",
       "required": false
     }
   },
