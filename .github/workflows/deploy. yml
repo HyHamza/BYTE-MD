@@ -26,7 +26,7 @@ jobs:
     - name: Install libraries
       run: npm install
 
-    - name: Start Suhail-Md
+    - name: Start Byte-Md
     
       env:
           OWNER_NAME: 
