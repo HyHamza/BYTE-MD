@@ -7,7 +7,7 @@ global.video = "";
 global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
 global.email = "Kipkogeimeshack6@gmail.com";
-global.location = "Nairobi,Kenya.";
+global.location = "Kapsabet,Kenya.";
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://Hamza:3800380ww@cluster0.uwommwq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 global.allowJids = process.env.ALLOW_JID || "254707541188@s.whatsapp.net";
 global.blockJids = process.env.BLOCK_JID || "null";
