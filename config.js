@@ -2,8 +2,8 @@
 const fs = require("fs-extra");
 if (fs.existsSync(".env"))
   require("dotenv").config({ path: __dirname + "/.env" });
-global.audio = "";
-global.video = "";
+global.audio = "1";
+global.video = "2";
 global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
 global.email = "TalkDrove@gmail.com";
@@ -30,7 +30,7 @@ global.MsgsInLog = process.env.MSGS_IN_LOG || "false";
 global.userImages = process.env.USER_IMAGES || "";
 global.waPresence = process.env.WAPRESENCE || "available";
 global.readcmds = process.env.READ_COMMAND || "true";
-global.readmessage = process.env.READ_MESSAGE || "true";
+global.readmessage = process.env.READ_MESSAGE || "false";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "true";
 global.read_status = process.env.AUTO_READ_STATUS || "true";
 global.save_status = process.env.AUTO_SAVE_STATUS || "false";
@@ -40,7 +40,7 @@ global.read_status_from = process.env.READ_STATUS_FROM || "all";
 global.api_smd = "https://HyHamza.vercel.app";
 global.scan = "https://byte-session.vercel.app/";
 
-
+global.auto_typing_from = process .env.AUTO_TYPE_FROM || "all";
 
 
 global.SESSION_ID =
