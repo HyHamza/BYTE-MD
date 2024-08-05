@@ -36,7 +36,7 @@ global.read_status = process.env.AUTO_READ_STATUS || "true";
 global.save_status = process.env.AUTO_SAVE_STATUS || "false";
 global.save_status_from = process.env.SAVE_STATUS_FROM || "all";
 global.read_status_from = process.env.READ_STATUS_FROM || "all";
-global.auto_typing_from = process.env.AUTO_TYPING_FROM || "all";
+global.record_audio_from = process.env.AUTO_RECORDING_AUDIO_FROM || "all";
 global.api_smd = "https://HyHamza.vercel.app";
 global.scan = "https://byte-session.vercel.app";
 
