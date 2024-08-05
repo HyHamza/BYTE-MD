@@ -41,7 +41,7 @@ global.api_smd = "https://HyHamza.vercel.app";
 global.scan = "https://byte-session.vercel.app";
 
 
-global.SESSION_ID =
+global.SESSION_ID = 
   process.env.SESSION_ID ||
 
 
@@ -71,7 +71,7 @@ module.exports = {
 
   //Prefix variable
   HANDLERS: process.env.PREFIX || ".",
-  BRANCH: process.env.BRANCH || "main",
+  BRANCH: process.env.BRANCH || "Jojo 254",
   VERSION: process.env.VERSION || "1.0.0",
   caption: process.env.CAPTION || "*Powered By TalkDrove*",
   author: process.env.PACK_AUTHER || "TalkDrove",
