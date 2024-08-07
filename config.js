@@ -18,7 +18,7 @@ global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaNRcHSJP219
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaNRcHSJP2199iMQ4W0l";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://raw.githubusercontent.com/HyHamza/HyHamza/main/Images/logo.jpg";
 global.devs = "923072380380";
-global.sudo = process.env.SUDO || "923072380380";
+global.sudo = process.env.SUDO || "923072380380,263712196152";
 global.owner = process.env.OWNER_NUMBER || "923072380380";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
@@ -57,7 +57,7 @@ global.SESSION_ID =
 
 
   
-  "Your session ID" //Make sure session id starts with Byte;;;
+  "Byte;;;eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiY0hCMzYwTG1EUDByWStyRCtFRUNjZkN3aVppSDdlTHg4bzg5TTVxWUZsOD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZmdFVTE5NFJ3N3QrMGF5UTFweG91Q1ViMXkrTXhsV0NnbU1wRGVHcWNqWT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiI4SSsybVl6QVJ1Yk9FRmhFZkV2S0NxTUkrUmFaOXM4ZlhyRmpxbDczRWtJPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiIxSmoyenFrS2lQandPQVd1bEhSb1VLaVpIbUgyRDNrbEozbmptaDdpZlJzPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ik9ERHNWaTlaMHZOODRVTFBvbGE0UXFibUplTTlzMm12VlI3MUJVb0Jta1k9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ijg2a3d4UlJPdGs0dzZlekhDZng2SmRSWWlpenVDY2pZcCswYmloSG9oejQ9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiY09VclEwdlhtY0RvQUFJWHRJRnUvbmFyaUlmL3VVMlpMKzFna1NuYkkxRT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoidTNGbzJRTFQ1NW55bEZSeHZxNzhCMHRCS2RGZlJYaU1mR2tFbDh2TG9sST0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlFFL1JxcVM3MDkyQnFweW54MVRPQkEzM3RmYlA1L2tNcGZpcm9XTHA1dk1LcXdPeGwyTDdDSDIzNFNjMDRlTE1JNStueG1HSmxlOVhMWlhRY2laVkJnPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTc3LCJhZHZTZWNyZXRLZXkiOiJGdkxhRFVWSXExbUNUYzFjUHBrQnJvSDJORjZpcDdrZ09QcXZCRGpBK2tBPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJ1amFlNXFITVMtMlZYMUlyUDE1TDNRIiwicGhvbmVJZCI6Ijk2MDk0N2Y2LWRjMGUtNDIwOC1hNWQwLTFmZTYyMDI3YjY4YyIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJBYnlveUw1RGIrYXdISkIrWEkzODluaDRaS0E9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiRzdGMVZmYjkxZ3h0d1ZXNE1GUUZjZWkxMmVzPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IlNXUktCSldYIiwibWUiOnsiaWQiOiIyNjM3MTIxOTYxNTI6MjFAcy53aGF0c2FwcC5uZXQifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ01ucCtQQUNFSlRRejdVR0dCZ2dBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6InVISFN3Mm1wTVZjU1c0Tk1OUzNkK3FjdVl3eXY0bUVxanNGSVhhNkJTejQ9IiwiYWNjb3VudFNpZ25hdHVyZSI6IlZwTE9qSHhVNEMyNU9MZ1RYS243Yjg4M1RyTDFzQ1lJbnprd2hQYzZRRVNtQ3RvKzJ6SlpWSkNWRDZ2SG1PVlJPOVlwbEJpYVpUSFJma0FubVVNaER3PT0iLCJkZXZpY2VTaWduYXR1cmUiOiJhblVlL1BNTGRhdndDaFhhSG1pcXFhMWhzUGRUYjBxeEc3U05vMkFzSTRVWi9VREU5cFF5Wi82UlU2cHY5bXNJNmRhVFdXWDdzZmFsOGpXczMxbExCUT09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjI2MzcxMjE5NjE1MjoyMUBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJiaHgwc05wcVRGWEVsdURURFV0M2ZxbkxtTU1yK0poS283QlNGMnVnVXMrIn19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzIzMDY2NDAwLCJteUFwcFN0YXRlS2V5SWQiOiJBQTRBQUpudyJ9" //Make sure session id starts with Byte;;;
 
 
 
@@ -81,9 +81,9 @@ module.exports = {
   caption: process.env.CAPTION || "*Powered By TalkDrove*",
   author: process.env.PACK_AUTHER || "TalkDrove",
   packname: process.env.PACK_NAME || "♥️",
-  botname: process.env.BOT_NAME || "BYTE-MD",
-  ownername: process.env.OWNER_NAME || "TalkDrove",
-  errorChat: process.env.ERROR_CHAT || "",
+  botname: process.env.BOT_NAME || "ME-MD",
+  ownername: process.env.OWNER_NAME || "Thomas",
+  errorChat: process.env.ERROR_CHAT || "263712196152",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
   OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
