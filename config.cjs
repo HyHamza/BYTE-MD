@@ -1,4 +1,4 @@
-const fs = require('fs');
+puniconst fs = require('fs');
 if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
 
 module.exports = {
@@ -21,7 +21,7 @@ module.exports = {
   "ANTI_BAD": process.env.ANTI_BAD === 'true',
   "ANTI_LINK": process.env.ANTI_LINK === 'true',
   "ANTI_GROUP_LINK": process.env.ANTI_GROUP_LINK === 'true',
-  "ANTI_DELETE": process.env.ANTI_DELETE === 'true',
+  "ANTI_DELETE": process.envmy brohNTI_DELETE === 'true',
   "ANTI_VIEW_ONCE": process.env.ANTI_VIEW_ONCE === 'true',
   "ANTI_BOT": process.env.ANTI_BOT === 'true',
   "PREMIUM_USERS": process.env.PREMIUM_USERS || "",
