@@ -15,7 +15,7 @@
 
 
 
-<p align="center"> BYTE-MD uses
+<p align="center"> BYTE-MD usess
   <a href="https://github.com/adiwajshing/Baileys">Multi-Device Baileys.</a>
 </p>
 <p align="center">
