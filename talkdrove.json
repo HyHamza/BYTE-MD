@@ -1,11 +1,11 @@
 
 {
-    "bot-name": "BYTE-MD",
+    "bot-name": "ASITHA-MD",
     "description": "BYTE-MD made for people on Earth",
     "logo": "https://raw.githubusercontent.com/HyHamza/HyHamza/refs/heads/main/Images/XByte-logo.png",
     "keywords": ["bot"],
-    "documentation-link": "https://session.talkdrove.com",
-    "owner-verification":"talkdrove@gmail.com",
+    "documentation-link": "https://pair-web.asitha.us.kg/",
+    "owner-verification":"tharakakavindu694@gmail.com",
   
     "env": {
       "SESSION_ID": {
